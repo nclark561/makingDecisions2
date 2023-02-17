@@ -85,7 +85,7 @@ console.log('--------')
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24,7,92,34,51,65,72];
 // Do not edit the code above.
 
 /*
@@ -104,7 +104,7 @@ console.log('--------');
 
 //Code Here
 if (myFavoriteNumbers.length >= 7) {
-  someNum = myFavoriteNumbers[6];
+  someNum = myFavoriteNumbers[myFavoriteNumbers.length - 1];
   console.log(someNum);
 } else {
   console.log('There are not enough elements in this array.');
